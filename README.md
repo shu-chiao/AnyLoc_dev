@@ -497,12 +497,16 @@ We thank the authors of the following repositories for their open source code an
 Thanks for using our work. You can cite it as:
 
 ```bib
-@article{AnyLoc,
-    author    = {Nikhil Keetha and Avneesh Mishra and Jay Karhade and Krishna Murthy Jatavallabhula and Sebastian Scherer and Madhava Krishna and Sourav Garg}
-    title     = {AnyLoc: Towards Universal Visual Place Recognition},
-    url       = {https://arxiv.org/abs/2308.00688}
-    journal   = {arXiv},
-    year      = {2023},
+@article{keetha2023anyloc,
+  title={AnyLoc: Towards Universal Visual Place Recognition}, 
+  author={Keetha, Nikhil and Mishra, Avneesh and Karhade, Jay and Jatavallabhula, Krishna Murthy and Scherer, Sebastian and Krishna, Madhava and Garg, Sourav},
+  journal={IEEE Robotics and Automation Letters},
+  year={2023},
+  publisher={IEEE},
+  volume={9},
+  number={2},
+  pages={1286-1293},
+  doi={10.1109/LRA.2023.3343602}
 }
 ```
 
@@ -512,4 +516,4 @@ Developers:
 - [JayKarhade](https://github.com/JayKarhade) ([Jay Karhade](https://jaykarhade.netlify.app/))
 - [Nik-V9](https://github.com/Nik-V9) ([Nikhil Keetha](https://nik-v9.github.io/))
 - [krrish94](https://github.com/krrish94) ([Krishna Murthy Jatavallabhula](https://krrish94.github.io/))
-- [oravus](https://github.com/oravus) ([Sourav Garg](https://scholar.google.co.in/citations?user=oVS3HHIAAAAJ&hl=en))
+- [oravus](https://github.com/oravus) ([Sourav Garg](https://oravus.github.io/))
