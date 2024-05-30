@@ -13,6 +13,38 @@ from typing import Literal, Union, List
 
 
 # %%
+<<<<<<< Updated upstream
+=======
+@dataclass
+class LocalArgs:
+    # If True, the example dataset will be downloaded
+    use_example: bool = True
+    """
+        If True, the example dataset will be downloaded. If False,
+        then the input directory should contain the images (user is
+        expected to arrange it).
+    """
+    # Input directory containing images
+    in_dir: str = "./data/CityCenter/Images"
+    # Image file extension
+    imgs_ext: str = "jpg"
+    # Output directory where global descriptors will be stored
+    out_dir: str = "./data/CityCenter/GD_Images"
+    # Maximum edge length (expected) across all images (GPU OOM):check wight first
+    max_img_size: int = 1024
+    # Use the OneDrive mirror for example
+    use_od_example: bool = True
+    # Use only the first-N images (for testing). Use all if 'None'.
+    first_n: Union[int, None] = None
+    # Domain to use for loading VLAD cluster centers
+    domain: Literal["aerial", "indoor", "urban"] = "urban"
+    # Number of clusters (cluster centers for VLAD) - read from cache
+    num_c: int = 32
+    # VLAD cache name
+    vlad_c: str = "vlad.pt"
+
+# %%
+>>>>>>> Stashed changes
 # List of downloads (for testing and data)
 od_down_links = {
     # VLAD cache (vocabularies)
